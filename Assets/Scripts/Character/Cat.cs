@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Cat : Character
 {
-    [SerializeField] private int catLife = 4;
+    [SerializeField] private int catLife = 5;
 
     public Cat()
     {
