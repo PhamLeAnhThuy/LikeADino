@@ -28,7 +28,12 @@ public class PlayerController : MonoBehaviour
             return;
         }
     }
-
+    private void Start()
+    {
+        character_cat.SetActive(false);
+        character_dog.SetActive(false);
+        character_rabbit.SetActive(false);
+    }
 
     public void ChooseCharacter(int index)
     {
